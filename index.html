@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>water waste calc:aquaGuard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backdrop">
+      <img src="./AquaGuard.jpg" alt="" />
+    </div>
+    <div class="wrapper">
+      <h1 class="headline">Water wastage calc:AquaGuard</h1>
+      <input
+        min="0"
+        max="10"
+        type="number"
+        id="filter-water"
+        placeholder="enter the expected filtered water"
+      />
+      <!--
+       <label for="file">Downloading progress:</label>
+      <progress id="file" value="32" max="100">32%</progress>
+      
+     -->
+      <button id="calc" class="calcbtn">calculate wastage</button>
+      <progress id="file" value="32" max="100">32%</progress>
+      <h2 id="output">output: <span id="outval"> </span></h2>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

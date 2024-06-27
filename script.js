@@ -20,7 +20,7 @@ btn.addEventListener("click", () => {
     outputText.innerHTML = "Please enter a non zero value";
   } else {
     console.log(inputval.value * 3);
-    outputText.innerHTML = `output: ${inputval.value * 3}`;
+    outputText.innerHTML = `output:Liter ${inputval.value * 3}`;
   }
 
   //document.getElementById("#output").  .style.display = "inline-block";
